@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+        <h1 id="title">Introduction to JavaScript</h1>
+        <img id="spinner" class="spinner-img" src="img/spinner.jpg" width="80px" alt="">
+        <button onclick="spinnerCircle()">Айнал</button>
+        <button onclick="spinnerStop()">Тоқта</button>
+        <button onclick="getAlert()">Мені бас және хабарлама ал!</button>
+        <button onclick="changeColor()">Өзгерту</button>
+    
+        <script>
+            function getAlert() {
+                alert("Жаліма! Басымдың қазіріңіздің қарсыласындағы құжаттарына қатынасын ерекше қолданылады.");
+            }
+            function changeColor() {
+            var titleContent = document.getElementById('title')
+
+            titleContent.style.color = 'red'
+            }
+    </script>
+        </script>
+    <script>
+        console.log("Бұл ішкі байланыс арқылы жасалған");
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

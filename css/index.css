@@ -1,0 +1,7 @@
+spinner-img{
+    animation-name: spinnerCircle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes
